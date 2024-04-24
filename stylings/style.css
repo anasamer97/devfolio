@@ -231,3 +231,13 @@ textarea {
 
 
 }
+
+
+@media screen and (min-width: 1400px) {
+
+    .blog .mini-caption {
+        top: 60%;
+    }
+
+
+}
