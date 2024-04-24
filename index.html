@@ -529,18 +529,38 @@
 
     <!-- Carousal Section -->
 
-    <div class="carousal-section mt-4 text-white p-5">
-        <div class="container p-5 text-center">
-            <img src="images/testimonial-2.jpg" alt="Person">
-            <h3 class="mt-1">Mart Socrate</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis animi corrupti sed incidunt totam.
-            </p>
-
-            <div>
-                <i class="bi bi-circle-fill text-white mx-1"></i>
-                <i class="bi bi-circle-fill text-white"></i>
-            </div>
+    <div id="carouselExampleIndicators" class="carousel slide carousal-section align-items-center d-flex">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
         </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active text-white">
+                <img src="images/testimonial-2.jpg" class="d-block mx-auto" alt="...">
+
+                <div class="paragraph-text text-center">
+                    <h3>Xavi Alonso</h3>
+                    <p class="lead">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item text-white">
+                <img src="images/testimonial-4.jpg" class="d-block mx-auto" alt="...">
+                <div class="paragraph-text text-center">
+                    <h3>Marta Socrate</h3>
+                    <p class="lead">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
 
@@ -644,7 +664,7 @@
     <!-- Contact Section -->
 
     <div class="contact-section mt-5 p-5">
-        <div class="container-fluid p-2 bg-white text-black">
+        <div class="container p-2 bg-white text-black">
             <div class="contact-us-form p-3">
                 <div class="row">
                     <div class="col-6">
@@ -715,8 +735,6 @@
         </div>
     </div>
 
-
-
     <!-- Footer section -->
 
     <div class="footer shadow p-2  text-white">
@@ -728,11 +746,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <!-- JS Links -->
     <script src="js/bootstrap.bundle.min.js"></script>
